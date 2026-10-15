@@ -1,0 +1,12 @@
+[
+  { "id": 1,  "nombre": "Laguna Bacalar",             "categoria": "naturaleza",  "precio": 350, "cupo": 15, "icono": "&#127754;" },
+  { "id": 2,  "nombre": "Ruinas de Tulum",            "categoria": "cultura",     "precio": 480, "cupo": 20, "icono": "&#127963;" },
+  { "id": 3,  "nombre": "Rappel en cenote",           "categoria": "aventura",    "precio": 750, "cupo": 10, "icono": "&#129406;" },
+  { "id": 4,  "nombre": "Paddleboard en arrecife",    "categoria": "aventura",    "precio": 680, "cupo": 8,  "icono": "&#128675;" },
+  { "id": 5,  "nombre": "Tour gastronómico Playa",    "categoria": "gastronomia", "precio": 620, "cupo": 12, "icono": "&#127869;" },
+  { "id": 6,  "nombre": "Reserva de flamencos",       "categoria": "naturaleza",  "precio": 420, "cupo": 18, "icono": "&#128034;" },
+  { "id": 7,  "nombre": "Snorkel en Cozumel",         "categoria": "aventura",    "precio": 950, "cupo": 6,  "icono": "&#129343;" },
+  { "id": 8,  "nombre": "Visita a Cobá y taller",     "categoria": "cultura",     "precio": 380, "cupo": 15, "icono": "&#128334;" },
+  { "id": 9,  "nombre": "Meditación en cenote",       "categoria": "bienestar",   "precio": 250, "cupo": 12, "icono": "&#129496;" },
+  { "id": 10, "nombre": "Ecoparque Xel-Há",           "categoria": "recreativo",  "precio": 450, "cupo": 25, "icono": "&#127905;" }
+]

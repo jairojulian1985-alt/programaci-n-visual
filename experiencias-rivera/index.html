@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reservas Riviera Maya</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+
+  <header class="encabezado">
+    <h1>Reservas Riviera Maya</h1>
+    <p>Selecciona y calcula tu experiencia turistica</p>
+  </header>
+
+  <main class="contenedor">
+
+    <section class="controles" aria-label="Controles del catalogo">
+      <input id="buscador" type="search" placeholder="Buscar experiencia...">
+      <select id="filtroCategoria">
+        <option value="todas">Todas las categorias</option>
+        <option value="naturaleza">Naturaleza</option>
+        <option value="cultura">Cultura</option>
+        <option value="aventura">Aventura</option>
+        <option value="gastronomia">Gastronomia</option>
+        <option value="recreativo">Recreativo</option>
+        <option value="bienestar">Bienestar</option>
+      </select>
+      <select id="ordenPrecio">
+        <option value="normal">Orden original</option>
+        <option value="ascendente">Menor precio</option>
+        <option value="descendente">Mayor precio</option>
+      </select>
+    </section>
+
+    <p id="estado" class="estado">Cargando experiencias...</p>
+    <section id="catalogo" class="catalogo"></section>
+    <p id="sinResultados" class="sin-resultados oculto">No se encontraron experiencias.</p>
+
+    <section class="resumen">
+      <div style="display: flex; justify-content: space-between; align-items: center;">
+        <h2>Mi reservacion</h2>
+        <button id="btnVaciar" class="btn-vaciar">Vaciar</button>
+      </div>
+      <div id="listaReservas">
+        <p>No hay experiencias seleccionadas.</p>
+      </div>
+      <p class="total">Total: <span id="total">$0 MXN</span></p>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Proyecto academico de desarrollo front-end</p>
+  </footer>
+
+</body>
+</html>
